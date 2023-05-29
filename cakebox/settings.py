@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'api',
     'rest_framework.authtoken',
-    "corsheaders",
+    "corsheaders"
+
 
 ]
 
@@ -136,5 +137,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #         'rest_framework.permissions.IsAuthenticated'
 #     ]
 # }
+
 
 CORS_ALLOW_ALL_ORIGINS=True

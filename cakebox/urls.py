@@ -25,6 +25,9 @@ from django.conf.urls.static import static
 
 from api import views
 
+from django.conf import settings
+from django.conf.urls.static import static
+
 router=DefaultRouter()
 router.register('api/register',views.UsersView,basename='users')
 router.register('api/cakes',views.CakesView,basename='cakes')
